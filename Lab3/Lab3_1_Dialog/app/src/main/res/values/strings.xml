@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab3_1_Dialog</string>
+    <string name="contact_email_bt2_dialog">14520679@gm.uit.edu.vn</string>
+    <string name="contact_phone_bt2_dialog">0123456789</string>
+    <string name="send_bt2_dialog">Send</string>
+    <string name="call_bt2_dialog">Call</string>
+    <string name="dialog_bt2_dialog">Dialog</string>
+    <string name="contact_bt2_dialog">Contact</string>
+    <string name="name_bt2_dialog">Name: </string>
+    <string name="email_bt2_dialog">Email: </string>
+    <string name="phone_bt2_dialog">Phone: </string>
+    <string name="contact_name_bt2_dialog">Bill Gate</string>
+
+</resources>

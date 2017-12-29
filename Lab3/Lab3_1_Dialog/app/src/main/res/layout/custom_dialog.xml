@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/activity_margin">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/contact_bt2_dialog"
+            android:textColor="@color/color7"/>
+        <ImageButton
+            android:layout_width="@dimen/image_button"
+            android:layout_height="@dimen/image_button"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_close"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:id="@+id/btnCancelDialogBT2"/>
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin">
+
+        <TableRow
+            android:padding="@dimen/base_margin">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/name_bt2_dialog"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/contact_name_bt2_dialog"/>
+        </TableRow>
+
+        <TableRow
+            android:padding="@dimen/base_margin">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/email_bt2_dialog"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/contact_email_bt2_dialog"/>
+        </TableRow>
+
+        <TableRow
+            android:padding="@dimen/base_margin">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/phone_bt2_dialog"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/contact_phone_bt2_dialog"/>
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/base_margin"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:id="@+id/btnSendDialogBT2">
+                <ImageView
+                    android:layout_width="@dimen/image_button"
+                    android:layout_height="@dimen/image_button"
+                    android:src="@drawable/ic_email"
+                    android:background="@null"
+                    android:layout_margin="@dimen/base_margin"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/send_bt2_dialog"
+                    android:textColor="@color/color7"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/base_margin"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:id="@+id/btnCallDialogBT2">
+                <ImageView
+                    android:layout_width="@dimen/image_button"
+                    android:layout_height="@dimen/image_button"
+                    android:src="@drawable/ic_phone"
+                    android:background="@null"
+                    android:layout_margin="@dimen/base_margin"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/call_bt2_dialog"
+                    android:textColor="@color/color7"/>
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
